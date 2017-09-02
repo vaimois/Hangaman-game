@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <title> Hangman Game woo hoo !!!!</title>
+      <link rel=stylesheet type="text/css" href="Hangman.css">
+      <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+      <script type="text/javascript" src="Hangman.js"></script>
+   </head>
+   <body>
+      <div class="bounce">
+         <h1>Hangman<br> </h1>
+      </div>
+      <h1> HANGMAN - This will be your favourite game for you now and in the future </h1>
+      <br>
+      <p id="ratefeld"></p>
+      <form name="hangmanGame">
+         <input name="textBox" type="text" size="5" maxlength="1" class="text text1">
+         <input name="ratebutton" type="button" class=" button button1" value="Enter your Guess" onClick="refreshButton()">
+         <input name="refresh" type="button" class=" button button2 " value="Restart the Game" onClick="location.reload()">
+         <p id="generateLetters">Wrong Letters:</p>
+         <div class="bounce">
+            <h1>Hangman<br> </h1>
+         </div>
+      </form>
+   </body>
+</html>
